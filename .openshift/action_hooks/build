@@ -2,7 +2,7 @@
 
 # 下载签到助手并展开
 cd ${OPENSHIFT_REPO_DIR}php/
-curl -s https://codeload.github.com/x990/Tieba-Cloud-Sign/zip/master > Tieba-sign.zip
+curl -s https://codeload.github.com/x990/Tieba_Sign/zip/master > Tieba-sign.zip
 #cp -rf ${OPENSHIFT_REPO_DIR}.openshift/markers/Tieba_Sign_Stable-20140427_032507.zip Tieba-sign.zip
 unzip Tieba-sign.zip
 rm -rf Tieba-sign.zip
