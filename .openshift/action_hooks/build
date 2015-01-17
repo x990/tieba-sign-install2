@@ -6,7 +6,7 @@ curl -s https://codeload.github.com/x990/Tieba_Sign/zip/master > Tieba-sign.zip
 #cp -rf ${OPENSHIFT_REPO_DIR}.openshift/markers/Tieba_Sign_Stable-20140427_032507.zip Tieba-sign.zip
 unzip Tieba-sign.zip
 cp -r Tieba_Sign-master/* ./
-rm -rf Tieba-sign.zip
+rm -rf Tieba-sign.zip Tieba_Sign-master
 
 # 安装插件
 cd ${OPENSHIFT_REPO_DIR}.openshift/plugins
